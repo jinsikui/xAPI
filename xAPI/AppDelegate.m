@@ -1,13 +1,7 @@
-//
-//  AppDelegate.m
-//  sTracking
-//
-//  Created by JSK on 2022/3/29.
-//
+
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[MainViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }

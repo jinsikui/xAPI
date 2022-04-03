@@ -8,12 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		6331E40527F48537001DFB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E40427F48537001DFB95 /* AppDelegate.m */; };
-		6331E40B27F48537001DFB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E40A27F48537001DFB95 /* ViewController.m */; };
 		6331E41027F48539001DFB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6331E40F27F48539001DFB95 /* Assets.xcassets */; };
 		6331E41327F48539001DFB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6331E41127F48539001DFB95 /* LaunchScreen.storyboard */; };
 		6331E41627F48539001DFB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E41527F48539001DFB95 /* main.m */; };
 		6331E42027F48539001DFB95 /* xAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E41F27F48539001DFB95 /* xAPITests.m */; };
 		6331E42B27F48539001DFB95 /* xAPIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E42A27F48539001DFB95 /* xAPIUITests.m */; };
+		63BFB3E927F9BEE000372284 /* xNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3C727F9BEDF00372284 /* xNetworkRequest.m */; };
+		63BFB3EA27F9BEE000372284 /* xNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3C727F9BEDF00372284 /* xNetworkRequest.m */; };
+		63BFB3EB27F9BEE000372284 /* xNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3C727F9BEDF00372284 /* xNetworkRequest.m */; };
+		63BFB3EC27F9BEE000372284 /* xChainNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3C927F9BEDF00372284 /* xChainNetworkOperation.m */; };
+		63BFB3ED27F9BEE000372284 /* xChainNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3C927F9BEDF00372284 /* xChainNetworkOperation.m */; };
+		63BFB3EE27F9BEE000372284 /* xChainNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3C927F9BEDF00372284 /* xChainNetworkOperation.m */; };
+		63BFB3EF27F9BEE000372284 /* xNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3CA27F9BEDF00372284 /* xNetworkCache.m */; };
+		63BFB3F027F9BEE000372284 /* xNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3CA27F9BEDF00372284 /* xNetworkCache.m */; };
+		63BFB3F127F9BEE000372284 /* xNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3CA27F9BEDF00372284 /* xNetworkCache.m */; };
+		63BFB3F227F9BEE000372284 /* xNetworkSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3CF27F9BEDF00372284 /* xNetworkSub.m */; };
+		63BFB3F327F9BEE000372284 /* xNetworkSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3CF27F9BEDF00372284 /* xNetworkSub.m */; };
+		63BFB3F427F9BEE000372284 /* xNetworkSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3CF27F9BEDF00372284 /* xNetworkSub.m */; };
+		63BFB3F527F9BEE000372284 /* xNetworkAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D027F9BEDF00372284 /* xNetworkAsyncOperation.m */; };
+		63BFB3F627F9BEE000372284 /* xNetworkAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D027F9BEDF00372284 /* xNetworkAsyncOperation.m */; };
+		63BFB3F727F9BEE000372284 /* xNetworkAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D027F9BEDF00372284 /* xNetworkAsyncOperation.m */; };
+		63BFB3F827F9BEE000372284 /* xNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D627F9BEDF00372284 /* xNetworkOperation.m */; };
+		63BFB3F927F9BEE000372284 /* xNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D627F9BEDF00372284 /* xNetworkOperation.m */; };
+		63BFB3FA27F9BEE000372284 /* xNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D627F9BEDF00372284 /* xNetworkOperation.m */; };
+		63BFB3FB27F9BEE000372284 /* xBatchNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D727F9BEDF00372284 /* xBatchNetworkOperation.m */; };
+		63BFB3FC27F9BEE000372284 /* xBatchNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D727F9BEDF00372284 /* xBatchNetworkOperation.m */; };
+		63BFB3FD27F9BEE000372284 /* xBatchNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3D727F9BEDF00372284 /* xBatchNetworkOperation.m */; };
+		63BFB3FE27F9BEE000372284 /* xRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DB27F9BEDF00372284 /* xRequestType.m */; };
+		63BFB3FF27F9BEE000372284 /* xRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DB27F9BEDF00372284 /* xRequestType.m */; };
+		63BFB40027F9BEE000372284 /* xRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DB27F9BEDF00372284 /* xRequestType.m */; };
+		63BFB40127F9BEE000372284 /* NSURLRequest+xNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DC27F9BEDF00372284 /* NSURLRequest+xNetwork.m */; };
+		63BFB40227F9BEE000372284 /* NSURLRequest+xNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DC27F9BEDF00372284 /* NSURLRequest+xNetwork.m */; };
+		63BFB40327F9BEE000372284 /* NSURLRequest+xNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DC27F9BEDF00372284 /* NSURLRequest+xNetwork.m */; };
+		63BFB40427F9BEE000372284 /* xNetworkResponseValider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DD27F9BEDF00372284 /* xNetworkResponseValider.m */; };
+		63BFB40527F9BEE000372284 /* xNetworkResponseValider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DD27F9BEDF00372284 /* xNetworkResponseValider.m */; };
+		63BFB40627F9BEE000372284 /* xNetworkResponseValider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DD27F9BEDF00372284 /* xNetworkResponseValider.m */; };
+		63BFB40727F9BEE000372284 /* xNetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DE27F9BEDF00372284 /* xNetworkAdapter.m */; };
+		63BFB40827F9BEE000372284 /* xNetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DE27F9BEDF00372284 /* xNetworkAdapter.m */; };
+		63BFB40927F9BEE000372284 /* xNetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DE27F9BEDF00372284 /* xNetworkAdapter.m */; };
+		63BFB40A27F9BEE000372284 /* xNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DF27F9BEDF00372284 /* xNetworkResponse.m */; };
+		63BFB40B27F9BEE000372284 /* xNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DF27F9BEDF00372284 /* xNetworkResponse.m */; };
+		63BFB40C27F9BEE000372284 /* xNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3DF27F9BEDF00372284 /* xNetworkResponse.m */; };
+		63BFB40D27F9BEE000372284 /* xNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E027F9BEDF00372284 /* xNetworkManager.m */; };
+		63BFB40E27F9BEE000372284 /* xNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E027F9BEDF00372284 /* xNetworkManager.m */; };
+		63BFB40F27F9BEE000372284 /* xNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E027F9BEDF00372284 /* xNetworkManager.m */; };
+		63BFB41027F9BEE000372284 /* xAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E327F9BEDF00372284 /* xAPIHelper.m */; };
+		63BFB41127F9BEE000372284 /* xAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E327F9BEDF00372284 /* xAPIHelper.m */; };
+		63BFB41227F9BEE000372284 /* xAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E327F9BEDF00372284 /* xAPIHelper.m */; };
+		63BFB41327F9BEE000372284 /* xAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E827F9BEDF00372284 /* xAPI.m */; };
+		63BFB41427F9BEE000372284 /* xAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E827F9BEDF00372284 /* xAPI.m */; };
+		63BFB41527F9BEE000372284 /* xAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB3E827F9BEDF00372284 /* xAPI.m */; };
+		63BFB41827F9BF6900372284 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB41627F9BF6900372284 /* MainViewController.m */; };
+		63BFB41927F9BF6900372284 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB41627F9BF6900372284 /* MainViewController.m */; };
+		63BFB41A27F9BF6900372284 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BFB41627F9BF6900372284 /* MainViewController.m */; };
 		8A743CCB3F8596A7C2164B2C /* libPods-xAPITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EA7ADF47119E3FB22CF885 /* libPods-xAPITests.a */; };
 		C2EAFA6EE5F135B51930FABC /* libPods-xAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308843087DF4495EA32CD978 /* libPods-xAPI.a */; };
 /* End PBXBuildFile section */
@@ -41,8 +88,6 @@
 		6331E40027F48537001DFB95 /* xAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6331E40327F48537001DFB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6331E40427F48537001DFB95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6331E40927F48537001DFB95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6331E40A27F48537001DFB95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6331E40F27F48539001DFB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6331E41227F48539001DFB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6331E41427F48539001DFB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +99,45 @@
 		6331E42A27F48539001DFB95 /* xAPIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xAPIUITests.m; sourceTree = "<group>"; };
 		6331E42C27F48539001DFB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6331E43827F4877D001DFB95 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		6331E44927F49DE9001DFB95 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		6331E44A27F49DE9001DFB95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6331E44B27F49DE9001DFB95 /* xAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = xAPI.podspec; sourceTree = "<group>"; };
+		63BFB3C527F9BEDF00372284 /* xBatchNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xBatchNetworkOperation.h; sourceTree = "<group>"; };
+		63BFB3C627F9BEDF00372284 /* xNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkOperation.h; sourceTree = "<group>"; };
+		63BFB3C727F9BEDF00372284 /* xNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkRequest.m; sourceTree = "<group>"; };
+		63BFB3C827F9BEDF00372284 /* xRequestConvertable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRequestConvertable.h; sourceTree = "<group>"; };
+		63BFB3C927F9BEDF00372284 /* xChainNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xChainNetworkOperation.m; sourceTree = "<group>"; };
+		63BFB3CA27F9BEDF00372284 /* xNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkCache.m; sourceTree = "<group>"; };
+		63BFB3CB27F9BEDF00372284 /* xNetworkResponseValider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkResponseValider.h; sourceTree = "<group>"; };
+		63BFB3CC27F9BEDF00372284 /* NSURLRequest+xNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+xNetwork.h"; sourceTree = "<group>"; };
+		63BFB3CD27F9BEDF00372284 /* xNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetwork.h; sourceTree = "<group>"; };
+		63BFB3CE27F9BEDF00372284 /* xRequestType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRequestType.h; sourceTree = "<group>"; };
+		63BFB3CF27F9BEDF00372284 /* xNetworkSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkSub.m; sourceTree = "<group>"; };
+		63BFB3D027F9BEDF00372284 /* xNetworkAsyncOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkAsyncOperation.m; sourceTree = "<group>"; };
+		63BFB3D127F9BEDF00372284 /* xNetworkAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkAdapter.h; sourceTree = "<group>"; };
+		63BFB3D227F9BEDF00372284 /* xNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkResponse.h; sourceTree = "<group>"; };
+		63BFB3D327F9BEDF00372284 /* xNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkManager.h; sourceTree = "<group>"; };
+		63BFB3D427F9BEDF00372284 /* xNetworkPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkPlugin.h; sourceTree = "<group>"; };
+		63BFB3D527F9BEDF00372284 /* xNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkRequest.h; sourceTree = "<group>"; };
+		63BFB3D627F9BEDF00372284 /* xNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkOperation.m; sourceTree = "<group>"; };
+		63BFB3D727F9BEDF00372284 /* xBatchNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xBatchNetworkOperation.m; sourceTree = "<group>"; };
+		63BFB3D827F9BEDF00372284 /* xNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkCache.h; sourceTree = "<group>"; };
+		63BFB3D927F9BEDF00372284 /* xChainNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xChainNetworkOperation.h; sourceTree = "<group>"; };
+		63BFB3DA27F9BEDF00372284 /* xNetworkSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkSub.h; sourceTree = "<group>"; };
+		63BFB3DB27F9BEDF00372284 /* xRequestType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xRequestType.m; sourceTree = "<group>"; };
+		63BFB3DC27F9BEDF00372284 /* NSURLRequest+xNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+xNetwork.m"; sourceTree = "<group>"; };
+		63BFB3DD27F9BEDF00372284 /* xNetworkResponseValider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkResponseValider.m; sourceTree = "<group>"; };
+		63BFB3DE27F9BEDF00372284 /* xNetworkAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkAdapter.m; sourceTree = "<group>"; };
+		63BFB3DF27F9BEDF00372284 /* xNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkResponse.m; sourceTree = "<group>"; };
+		63BFB3E027F9BEDF00372284 /* xNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNetworkManager.m; sourceTree = "<group>"; };
+		63BFB3E127F9BEDF00372284 /* xNetworkAsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNetworkAsyncOperation.h; sourceTree = "<group>"; };
+		63BFB3E327F9BEDF00372284 /* xAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xAPIHelper.m; sourceTree = "<group>"; };
+		63BFB3E427F9BEDF00372284 /* xAPIDepends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xAPIDepends.h; sourceTree = "<group>"; };
+		63BFB3E527F9BEDF00372284 /* xAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xAPIHelper.h; sourceTree = "<group>"; };
+		63BFB3E727F9BEDF00372284 /* xAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xAPI.h; sourceTree = "<group>"; };
+		63BFB3E827F9BEDF00372284 /* xAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xAPI.m; sourceTree = "<group>"; };
+		63BFB41627F9BF6900372284 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		63BFB41727F9BF6900372284 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		7AD158748734313C8F1986EE /* Pods-xAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xAPITests.release.xcconfig"; path = "Target Support Files/Pods-xAPITests/Pods-xAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		865B400C5507695983FA27AF /* Pods-xAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xAPI.release.xcconfig"; path = "Target Support Files/Pods-xAPI/Pods-xAPI.release.xcconfig"; sourceTree = "<group>"; };
 		DE5FD015C28A3003F6F1E72B /* Pods-xAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xAPITests.debug.xcconfig"; path = "Target Support Files/Pods-xAPITests/Pods-xAPITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +183,11 @@
 		6331E3F727F48537001DFB95 = {
 			isa = PBXGroup;
 			children = (
+				6331E44927F49DE9001DFB95 /* CHANGELOG.md */,
+				6331E44A27F49DE9001DFB95 /* README.md */,
+				6331E44B27F49DE9001DFB95 /* xAPI.podspec */,
 				6331E43827F4877D001DFB95 /* config.xcconfig */,
+				63BFB3C227F9BEBA00372284 /* Source */,
 				6331E40227F48537001DFB95 /* xAPI */,
 				6331E41E27F48539001DFB95 /* xAPITests */,
 				6331E42927F48539001DFB95 /* xAPIUITests */,
@@ -122,10 +210,10 @@
 		6331E40227F48537001DFB95 /* xAPI */ = {
 			isa = PBXGroup;
 			children = (
+				63BFB41727F9BF6900372284 /* MainViewController.h */,
+				63BFB41627F9BF6900372284 /* MainViewController.m */,
 				6331E40327F48537001DFB95 /* AppDelegate.h */,
 				6331E40427F48537001DFB95 /* AppDelegate.m */,
-				6331E40927F48537001DFB95 /* ViewController.h */,
-				6331E40A27F48537001DFB95 /* ViewController.m */,
 				6331E40F27F48539001DFB95 /* Assets.xcassets */,
 				6331E41127F48539001DFB95 /* LaunchScreen.storyboard */,
 				6331E41427F48539001DFB95 /* Info.plist */,
@@ -152,6 +240,79 @@
 			path = xAPIUITests;
 			sourceTree = "<group>";
 		};
+		63BFB3C227F9BEBA00372284 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				63BFB3C327F9BEDF00372284 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		63BFB3C327F9BEDF00372284 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63BFB3C427F9BEDF00372284 /* Network */,
+				63BFB3E227F9BEDF00372284 /* Helpers */,
+				63BFB3E627F9BEDF00372284 /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63BFB3C427F9BEDF00372284 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				63BFB3CC27F9BEDF00372284 /* NSURLRequest+xNetwork.h */,
+				63BFB3DC27F9BEDF00372284 /* NSURLRequest+xNetwork.m */,
+				63BFB3C527F9BEDF00372284 /* xBatchNetworkOperation.h */,
+				63BFB3D727F9BEDF00372284 /* xBatchNetworkOperation.m */,
+				63BFB3D927F9BEDF00372284 /* xChainNetworkOperation.h */,
+				63BFB3C927F9BEDF00372284 /* xChainNetworkOperation.m */,
+				63BFB3CD27F9BEDF00372284 /* xNetwork.h */,
+				63BFB3D127F9BEDF00372284 /* xNetworkAdapter.h */,
+				63BFB3DE27F9BEDF00372284 /* xNetworkAdapter.m */,
+				63BFB3E127F9BEDF00372284 /* xNetworkAsyncOperation.h */,
+				63BFB3D027F9BEDF00372284 /* xNetworkAsyncOperation.m */,
+				63BFB3D827F9BEDF00372284 /* xNetworkCache.h */,
+				63BFB3CA27F9BEDF00372284 /* xNetworkCache.m */,
+				63BFB3D327F9BEDF00372284 /* xNetworkManager.h */,
+				63BFB3E027F9BEDF00372284 /* xNetworkManager.m */,
+				63BFB3C627F9BEDF00372284 /* xNetworkOperation.h */,
+				63BFB3D627F9BEDF00372284 /* xNetworkOperation.m */,
+				63BFB3D427F9BEDF00372284 /* xNetworkPlugin.h */,
+				63BFB3D527F9BEDF00372284 /* xNetworkRequest.h */,
+				63BFB3C727F9BEDF00372284 /* xNetworkRequest.m */,
+				63BFB3D227F9BEDF00372284 /* xNetworkResponse.h */,
+				63BFB3DF27F9BEDF00372284 /* xNetworkResponse.m */,
+				63BFB3CB27F9BEDF00372284 /* xNetworkResponseValider.h */,
+				63BFB3DD27F9BEDF00372284 /* xNetworkResponseValider.m */,
+				63BFB3DA27F9BEDF00372284 /* xNetworkSub.h */,
+				63BFB3CF27F9BEDF00372284 /* xNetworkSub.m */,
+				63BFB3C827F9BEDF00372284 /* xRequestConvertable.h */,
+				63BFB3CE27F9BEDF00372284 /* xRequestType.h */,
+				63BFB3DB27F9BEDF00372284 /* xRequestType.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		63BFB3E227F9BEDF00372284 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				63BFB3E327F9BEDF00372284 /* xAPIHelper.m */,
+				63BFB3E427F9BEDF00372284 /* xAPIDepends.h */,
+				63BFB3E527F9BEDF00372284 /* xAPIHelper.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		63BFB3E627F9BEDF00372284 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63BFB3E727F9BEDF00372284 /* xAPI.h */,
+				63BFB3E827F9BEDF00372284 /* xAPI.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		FD0C41C1FCB43C945C769FF3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +321,6 @@
 				DE5FD015C28A3003F6F1E72B /* Pods-xAPITests.debug.xcconfig */,
 				7AD158748734313C8F1986EE /* Pods-xAPITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -341,9 +501,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6331E40B27F48537001DFB95 /* ViewController.m in Sources */,
+				63BFB41327F9BEE000372284 /* xAPI.m in Sources */,
+				63BFB3F227F9BEE000372284 /* xNetworkSub.m in Sources */,
+				63BFB3F827F9BEE000372284 /* xNetworkOperation.m in Sources */,
+				63BFB40427F9BEE000372284 /* xNetworkResponseValider.m in Sources */,
+				63BFB41027F9BEE000372284 /* xAPIHelper.m in Sources */,
+				63BFB41827F9BF6900372284 /* MainViewController.m in Sources */,
+				63BFB40D27F9BEE000372284 /* xNetworkManager.m in Sources */,
+				63BFB40727F9BEE000372284 /* xNetworkAdapter.m in Sources */,
+				63BFB3FB27F9BEE000372284 /* xBatchNetworkOperation.m in Sources */,
+				63BFB3EC27F9BEE000372284 /* xChainNetworkOperation.m in Sources */,
+				63BFB3FE27F9BEE000372284 /* xRequestType.m in Sources */,
+				63BFB40A27F9BEE000372284 /* xNetworkResponse.m in Sources */,
 				6331E40527F48537001DFB95 /* AppDelegate.m in Sources */,
+				63BFB40127F9BEE000372284 /* NSURLRequest+xNetwork.m in Sources */,
+				63BFB3E927F9BEE000372284 /* xNetworkRequest.m in Sources */,
 				6331E41627F48539001DFB95 /* main.m in Sources */,
+				63BFB3EF27F9BEE000372284 /* xNetworkCache.m in Sources */,
+				63BFB3F527F9BEE000372284 /* xNetworkAsyncOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +526,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BFB3ED27F9BEE000372284 /* xChainNetworkOperation.m in Sources */,
+				63BFB3F927F9BEE000372284 /* xNetworkOperation.m in Sources */,
+				63BFB40827F9BEE000372284 /* xNetworkAdapter.m in Sources */,
+				63BFB3EA27F9BEE000372284 /* xNetworkRequest.m in Sources */,
+				63BFB41127F9BEE000372284 /* xAPIHelper.m in Sources */,
+				63BFB40227F9BEE000372284 /* NSURLRequest+xNetwork.m in Sources */,
+				63BFB3FF27F9BEE000372284 /* xRequestType.m in Sources */,
+				63BFB41927F9BF6900372284 /* MainViewController.m in Sources */,
+				63BFB3FC27F9BEE000372284 /* xBatchNetworkOperation.m in Sources */,
 				6331E42027F48539001DFB95 /* xAPITests.m in Sources */,
+				63BFB40E27F9BEE000372284 /* xNetworkManager.m in Sources */,
+				63BFB3F627F9BEE000372284 /* xNetworkAsyncOperation.m in Sources */,
+				63BFB40527F9BEE000372284 /* xNetworkResponseValider.m in Sources */,
+				63BFB3F327F9BEE000372284 /* xNetworkSub.m in Sources */,
+				63BFB40B27F9BEE000372284 /* xNetworkResponse.m in Sources */,
+				63BFB41427F9BEE000372284 /* xAPI.m in Sources */,
+				63BFB3F027F9BEE000372284 /* xNetworkCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +550,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BFB3EE27F9BEE000372284 /* xChainNetworkOperation.m in Sources */,
+				63BFB3FA27F9BEE000372284 /* xNetworkOperation.m in Sources */,
+				63BFB40927F9BEE000372284 /* xNetworkAdapter.m in Sources */,
+				63BFB3EB27F9BEE000372284 /* xNetworkRequest.m in Sources */,
+				63BFB41227F9BEE000372284 /* xAPIHelper.m in Sources */,
+				63BFB40327F9BEE000372284 /* NSURLRequest+xNetwork.m in Sources */,
+				63BFB40027F9BEE000372284 /* xRequestType.m in Sources */,
+				63BFB41A27F9BF6900372284 /* MainViewController.m in Sources */,
+				63BFB3FD27F9BEE000372284 /* xBatchNetworkOperation.m in Sources */,
 				6331E42B27F48539001DFB95 /* xAPIUITests.m in Sources */,
+				63BFB40F27F9BEE000372284 /* xNetworkManager.m in Sources */,
+				63BFB3F727F9BEE000372284 /* xNetworkAsyncOperation.m in Sources */,
+				63BFB40627F9BEE000372284 /* xNetworkResponseValider.m in Sources */,
+				63BFB3F427F9BEE000372284 /* xNetworkSub.m in Sources */,
+				63BFB40C27F9BEE000372284 /* xNetworkResponse.m in Sources */,
+				63BFB41527F9BEE000372284 /* xAPI.m in Sources */,
+				63BFB3F127F9BEE000372284 /* xNetworkCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

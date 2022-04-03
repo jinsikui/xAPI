@@ -18,7 +18,7 @@ PODS:
   - PromisesObjC (2.0.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 4.0)
+  - AFNetworking (~> 4.0.0)
   - Masonry
   - PromisesObjC
 
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: fd6bf5871caea20a0d2c0ab85ac527a23a1bc66b
+PODFILE CHECKSUM: 51685a72b4d55fc12009554650f8cf29b16f6a47
 
 COCOAPODS: 1.10.0

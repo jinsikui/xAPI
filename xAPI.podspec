@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Source/Classes/xAPI.h'
   s.dependency 'PromisesObjC'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 4.0.0'
   
   s.subspec 'Helpers' do |sh|
     sh.source_files = 'Source/Classes/Helpers/*'
