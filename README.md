@@ -24,7 +24,7 @@
 
 通过pod引用，在podfile增加下面一行，通过tag指定版本
 ```
-pod 'xAPI',         :git => "https://github.com/jinsikui/xAPI.git", :tag => 'v1.0.3-0'
+pod 'xAPI',         :git => "https://github.com/jinsikui/xAPI.git", :tag => 'vX.X.X-X'
 ```
  objc代码中引入：
 ```
