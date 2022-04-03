@@ -25,6 +25,10 @@ Pod::Spec.new do |s|
   s.dependency 'PromisesObjC'
   s.dependency 'AFNetworking', '~> 4.0.0'
   
+  s.subspec 'Network' do |sn|
+    sn.source_files = 'Source/Classes/Network/*'
+  end
+  
   s.subspec 'Helpers' do |sh|
     sh.source_files = 'Source/Classes/Helpers/*'
   end
