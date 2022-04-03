@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'xAPI'
-  s.version          = '2.0.0.0'
+  s.version          = '2.1.0.0'
   s.summary          = '提供链式api调用'
 
   s.description      = <<-DESC
